@@ -1,0 +1,9 @@
+/* about.css */
+
+/* General body styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add more specific styles if needed, or import this file into your component */

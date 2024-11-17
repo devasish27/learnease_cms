@@ -1,0 +1,185 @@
+/* Student.css
+#student-modal {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #student-modal h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  #student-modal .MuiTextField-root {
+    margin-bottom: 16px;
+  }
+  
+  #student-modal .MuiButton-root {
+    background-color: #1976d2; /* Primary color */
+    
+
+
+
+
+    #student-modal,#student-view-modal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      width: 90%;
+      max-width: 500px;
+      max-height: 80vh;
+      overflow-y: auto;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #student-modal h2 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+      text-align: center;
+    }
+    
+    #student-modal .MuiTextField-root {
+      margin-bottom: 15px;
+    }
+    
+    #student-modal .MuiButton-root {
+      margin-top: 20px;
+      padding: 10px 0;
+    }
+    
+    .MuiButton-containedPrimary {
+      background-color: #1976d2;
+      color: #fff;
+    }
+    
+    .MuiButton-containedPrimary:hover {
+      background-color: #1565c0;
+    }
+    
+    .MuiButton-containedWarning {
+      background-color: #ff7043;
+      color: #fff;
+    }
+    
+    .MuiButton-containedWarning:hover {
+      background-color: #f4511e;
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+    
+    button:focus {
+      outline: none;
+    }
+    
+    .button-container .MuiButton-root {
+      width: 45%;
+    }
+    
+    @media (max-width: 600px) {
+      #student-modal {
+        width: 95%;
+        padding: 15px;
+      }
+    
+      .button-container {
+        flex-direction: column;
+      }
+    
+      .button-container .MuiButton-root {
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+   
+
+    #student-view-modal .MuiAvatar-root {
+      width: 120px;
+      height: 120px;
+      margin: 20px auto;
+      border: 4px solid white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+  
+
+/* Buttons for Add Student, View, Edit, Delete */
+.MuiButton-root {
+  margin-right: 10px;
+  justify-content: center;
+  position: center;
+}
+
+.MuiButton-root.MuiButton-containedPrimary {
+  background-color: #28a745;
+}
+
+.MuiButton-root.MuiButton-containedPrimary:hover {
+  background-color: #218838;
+}
+
+.MuiButton-root.MuiButton-containedSecondary {
+  background-color: #ffc107;
+}
+
+.MuiButton-root.MuiButton-containedSecondary:hover {
+  background-color: #e0a800;
+}
+
+.MuiButton-root.MuiButton-containedError {
+  background-color: #dc3545;
+}
+
+.MuiButton-root.MuiButton-containedError:hover {
+  background-color: #c82333;
+}
+
+
+/* Student Table Header */
+.MuiDataGrid-columnHeaderTitle {
+  color: #333;
+}
+
+/* Add a custom icon style for buttons */
+.MuiButton-root .MuiSvgIcon-root {
+  color: white;
+}
+
+/* Modal form elements spacing */
+.MuiTextField-root, .MuiButton-root {
+  margin-bottom: 15px !important;
+}
+
+/* Customize Modal background when opened */
+.MuiModal-root {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Ensure buttons are not too close to each other */
+.MuiButton-root {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.MuiAvatar-root {
+  background-color: #007bff;
+}
